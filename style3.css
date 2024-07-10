@@ -1,0 +1,15 @@
+Было:
+<body>
+<a href="task_main.html">Вернуться к списку заданий</a>
+<p class="red" style="color:blue">Это красный текст</p>
+<p class="green" style="color:red">Это зелёный текст</p>
+<p class="italic">Этот текст написан курсивом</p>
+<p class="bold">Это <i>полужирный</i> текст</p>
+</body>
+Исправленный скрипт:
+<body>
+<p class="red" style="color:red">Это красный текст</p>
+<p class="green" style="color:green">Это зелёный текст</p>
+<p class="italic"><i>Этот текст написан курсивом</i></p>
+<p class="bold"><b>Это полужирный текст</b></p>
+</body>

@@ -1,0 +1,36 @@
+Было:
+
+<p><span class="xxsmall">В</span> <span font-size="xsmall">этом</span>
+    <b class="medium">абзаце</b> <span class="xlarge">все</span> <span large>слова</span>
+    <span font="size=small">разного</span> <span size="xxlarge">размера</span></p>
+
+Исправленный скрипт:
+
+<style>
+.xsmall {
+font-size: x-small;
+}
+.xxsmall {
+font-size: xx-small;
+}
+.medium {
+font-size: medium;
+}
+.xlarge {
+font-size: x-large;
+}
+.large {
+font-size: large;
+}
+.size-small {
+font-size: small;
+}
+.xxlarge {
+font-size: xx-large;
+}
+</style>
+<body>
+<p><span class="xxsmall">в</span> <span class="xsmall">этом</span>
+	<b class="medium">абзаце</b> <span class="xlarge">все</span> <span class="large">слова</span>
+	<span class="size-small">разного</span> <span class="xxlarge">размера</span></p>
+</body>

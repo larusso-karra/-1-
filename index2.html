@@ -1,0 +1,31 @@
+Было:
+<p class="green">Это красный текст</p>
+<p class="red" style="color:green">Это тоже красный текст</p>
+<p class="italic">Это полужирный текст</p>
+<p class="bold">Это <i>тоже полужирный</i> текст</p>
+
+<ul>
+    <li color="green">Элемент списка</li>
+        <ol>
+            <li color="red">Первый элемент подсписка</li>
+            <li style="color:red">Второй элемент подсписка</li>
+        </ol>
+    <li style="color:green">Ещё один элемент списка</li>
+</ul>
+
+Исправленный скрипт:
+<p class="red"style="color:red">Это красный текст</p>
+<p class="red" style="color:red">Это тоже красный текст</p>
+
+<p class="italic"><b><p>Это полужирный текст</p></b>
+<p class="bold"><b><p>Это тоже полужирный текст</p></b>
+
+<ul>
+	<li style="color:rgb(245, 3, 144)">Элемент списка</li>
+	    <ol>
+		<li style="color:rgb(0, 255, 13)">Первый элемент подсписка</li>
+		<li style="color:red">Второй элемент подсписка</li>
+	    </ol>
+
+	<li style="color:rgb(128, 115, 0)">Ещё один элемент списка</li>
+</ul>
